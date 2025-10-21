@@ -1,20 +1,27 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const mdxMermaid = require('mdx-mermaid');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
+// needed for LaTeX compatibility
+const math = require('remark-math').default;
+const katex = require('rehype-katex').default;
+
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Web3 Foundation Grants',
-  tagline: 'Funding Software Development and Research Efforts related to Polkadot and Kusama.',
-  url: 'https://w3f.github.io',
-  baseUrl: '/Grants-Program/',
+  tagline: 'Funding Software Development and Research Efforts related to Polkadot and Kusama',
+  url: 'https://grants.web3.foundation',
+  baseUrl: '/',
   onBrokenLinks: 'warn',    // Revert back to 'throw' once initial release is up
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/Web3Foundation.png',
+  onBrokenMarkdownLinks: 'ignore',
+  favicon: 'img/favicon-32x32.png',
   organizationName: 'w3f', // Usually your GitHub org/user name.
   trailingSlash: false,
   projectName: 'Grants-Program', // Usually your repo name.
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
     colorMode: {
       defaultMode: 'light',
@@ -28,45 +35,41 @@ module.exports = {
     announcementBar: {
       id: 'announcement',
       content:
-        'Check out <a target="_blank" rel="noopener noreferrer" href="https://web3.bamboohr.com/jobs/">our current job openings</a>!',
+        '<a target="_blank" rel="noopener noreferrer" href="https://medium.com/web3foundation/web3-foundation-ecodev-wave-26-7f145c39c2ef">Our blog post on Ecosystem Development Wave 26 is now online!</a>',
       backgroundColor: '#000',
       textColor: '#ffffff',
       isCloseable: true,
     },
     navbar: {
-      title: 'W3F Grants Program',
+      title: 'Grants Program',
       logo: {
         alt: 'W3F Grants Program',
-        src: 'img/Web3Foundation.png',
+        src: 'img/w3f_logo.svg',
       },
       items: [
         {
           type: 'doc',
-          docId: 'introduction',
-          label: 'Introduction',
+          docId: 'docs/introduction',
+          position: 'right',
+          label: 'Docs',
         },
         {
           type: 'doc',
           docId: 'applications/index',
-          position: 'left',
+          position: 'right',
           label: 'List of Grants',
         },
         {
           type: 'doc',
-          docId: 'faq',
+          docId: 'docs/faq',
+          position: 'right',
           label: 'FAQ',
         },
         {
           type: 'doc',
-          docId: 'Process/how-to-apply',
+          docId: 'docs/Process/how-to-apply',
           position: 'right',
           label: 'Apply',
-        },
-        {
-          type: 'doc',
-          docId: 'contribute',
-          position: 'right',
-          label: 'Contribute',
         }
       ],
     },
@@ -86,7 +89,11 @@ module.exports = {
             },
             {
               label: 'Privacy Policy',
-              href: './Support%20Docs/privacy_policy',
+              to: 'docs/Support%20Docs/privacy_policy',
+            },
+            {
+              label: 'Legal Disclosures',
+              to: 'https://web3.foundation/legal-disclosures/',
             },
           ],
         }, 
@@ -125,24 +132,38 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: '.',
           routeBasePath: '/', 
-          // editUrl: 'https://github.com/w3f/grants/edit/master/',
+          editUrl: 'https://github.com/w3f/Grants-Program/edit/master/',
           // showLastUpdateAuthor: true,
           // showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
-          beforeDefaultRehypePlugins: [
-          ],
-          beforeDefaultRemarkPlugins: [
-          ],
           remarkPlugins: [
-            mdxMermaid
+            math,
           ],
           rehypePlugins: [
+            katex,
           ],
           exclude: [
-            'Applications/application-template.md',
-            'Applications/example-project.md',
-            'RFPs/suggestion-template.md'
+            'applications/application-template.md',
+            'applications/example-project.md',
+            'applications/maintenance/maintenance-template.md',
+            'applications/application-template-research.md',
+            'docs/RFPs/suggestion-template.md',
+            '.docusaurus/**',
+            '.github/**',
+            '.vscode/**',
+            'build/**',
+            'node_modules/**',
+            'src/**',
+            'static/**',
+            'babel.config.js',
+            '.gitignore',
+            'LICENSE',
+            'package-lock.json',
+            'package.json',
+            'sidebars.js',
+            'README.md'
           ],
         },
         blog: false,

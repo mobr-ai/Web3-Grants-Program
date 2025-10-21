@@ -1,8 +1,5 @@
-# Typechain grant #2
+# Typechain-Polkadot Follow-up
 
-# [Typechain-Polkadot](https://github.com/Supercolony-net/typechain-polkadot)
-
-- **Project Name:** [Typechain-Polkadot](https://github.com/727-Ventures/typechain-polkadot)
 - **Team Name:** [727.ventures](https://github.com/727-Ventures)
 - **Payment Address:** ERC 20 (DAI):
 0x352F779203202c99699CdA8cc95adF06CcC8abEf
@@ -20,7 +17,7 @@ Information about how to interact with a contract (methods names, arguments & re
 
 Interaction with blockchain is done with the polkadot.js library, which only has abstract definitions for the contract in use. Thus users' code cannot be typesafe. And Typechain-Polkadot can change it.
 
-This Grant is a follow-up to the previous grant, [W3F Grant Proposal](https://github.com/w3f/Grants-Program/pull/992)..
+This Grant is a follow-up to the previous grant, [Typechain-Polkadot](https://github.com/w3f/Grants-Program/pull/992)..
 We have decided to add a new tool that will help developers easily integrate typechain to their projects. It will also be compatible with Redspot (if redspot was used for compiler projects, you could just leave most of the things).
 We have some updates on our team, so check them out. And also, we did more work on Milestone 1 than we thought, so now it'll be easier to add new features to the project, so we considered to reestimate our time.
 
@@ -160,7 +157,7 @@ We have decided to describe a full roadmap of a Typechain here, with estimates. 
 | ------ | ----------- | ------------- |
 | 0a     | License  | MIT |
 | 0b     | Documentation | We will provide TypeScript code examples of this package in use, inline documentation, JSDoc, and the description of its features. |
-| 1 | TS Types | We will research & match types from ABI to TypeScript, compatible with polkadot{.js} v8 library. Separately, for methods' arguments and return values. Files with types definition will be generated. | 
+| 1 | TS Types | We will research & match types from ABI to TypeScript, compatible with polkadot\{.js} v8 library. Separately, for methods' arguments and return values. Files with types definition will be generated. | 
 | 2 | Runtime Code | Prepare output(its draft can be seen in [technical specification](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#generated-code-draft)) of runtime code with contracts' methods implementation. At this point we have minimal viable coverage of the ABI types, original methods' names, and general types for methods' options, without specifics for contract's namespaces.
 | 3 | Testing | Minimal coverage of PSP22 contract with integration tests. We will be testing correctness of the derived types of the arguments and return values. |
 | 4 | NPM Packaging | Prepare the repository to work through CLI as a package. In TypeScript, as is, without translation to JavaScript. We will publish the package to NPM repository and provide set-up instructions (i.e. for installation, input & output). |

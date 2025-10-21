@@ -3,6 +3,7 @@
 - **Team Name:** Asylum
 - **Payment Address:** 0xB2a6bF365635ea209d7A824125c1bf249A189866 (USDT (ERC20))
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
+- **Status:** [Terminated](https://github.com/w3f/Grants-Program/pull/1000#issuecomment-1377343850)
 
 ## Project Overview :page_facing_up:
 
@@ -234,28 +235,28 @@ Software engineer since 2018. Master of Science in Applied Mathematics. Has work
 
 ### Team Code Repos
 
-- <https://gitlab.com/asylum-space/>
-- <https://gitlab.com/asylum-space/asylum-ui>
-- <https://gitlab.com/asylum-space/asylum-item-nft>
-- <https://gitlab.com/asylum-space/asylum-standards>
+- https://gitlab.com/asylum-space/
+- https://gitlab.com/asylum-space/asylum-ui
+- https://gitlab.com/asylum-space/asylum-item-nft
+- https://gitlab.com/asylum-space/asylum-standards
 
 Members:
 
-- <https://github.com/LastSymbol0>
-- <https://github.com/0xMarkian>
-- <https://github.com/YaremenkoM>
-- <https://github.com/sventime>
-- <https://github.com/SupremaLex>
+- https://github.com/LastSymbol0
+- https://github.com/0xMarkian
+- https://github.com/YaremenkoM
+- https://github.com/sventime
+- https://github.com/SupremaLex
 
 ### Team LinkedIn Profiles (if available)
 
-- <https://www.linkedin.com/in/illia-abrosimov/>
-- <https://www.linkedin.com/in/maria-yaremenko/>
-- <https://www.linkedin.com/in/0xmarkian/>
-- <https://www.linkedin.com/in/sven-seventimes/>
-- <https://www.linkedin.com/in/%D0%BD%D0%B0%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B9-%D0%BA%D0%B8%D1%80%D0%B8%D0%BB%D0%BB-3bb2276a/>
-- <https://www.linkedin.com/in/kaplaty/>
-- <https://www.linkedin.com/in/heorhii-lutsenko-502873164/>
+- https://www.linkedin.com/in/illia-abrosimov/
+- https://www.linkedin.com/in/maria-yaremenko/
+- https://www.linkedin.com/in/0xmarkian/
+- https://www.linkedin.com/in/sven-seventimes/
+- https://www.linkedin.com/in/%D0%BD%D0%B0%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B9-%D0%BA%D0%B8%D1%80%D0%B8%D0%BB%D0%BB-3bb2276a/
+- https://www.linkedin.com/in/kaplaty/
+- https://www.linkedin.com/in/heorhii-lutsenko-502873164/
 
 ## Development Status :open_book:
 

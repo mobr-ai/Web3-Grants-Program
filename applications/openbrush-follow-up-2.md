@@ -141,31 +141,31 @@ PR&Marketing specialist with global brands work experience since 2018. Master de
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-* <https://github.com/xgreenx>
-* <https://github.com/varex83>
-* <https://github.com/Artemka374>
-* <https://github.com/coreggon11>
-* <https://github.com/o-tsaruk>
+* https://github.com/xgreenx
+* https://github.com/varex83
+* https://github.com/Artemka374
+* https://github.com/coreggon11
+* https://github.com/o-tsaruk
 
 ### Team LinkedIn Profiles (if available)
 
-* <https://www.linkedin.com/in/mivanichok/>
-* <https://www.linkedin.com/in/fedor-lebed-b8520b1a8/>
-* <https://www.linkedin.com/in/aostesymskyi/>
-* <https://www.linkedin.com/in/bogdan-ogorodniy/>
-* <https://www.linkedin.com/in/artem-fomiuk-31249b226/>
-* <https://www.linkedin.com/in/dominik-krizo/>
-* <https://www.linkedin.com/in/tsaruk-olexandr/>
+* https://www.linkedin.com/in/mivanichok/
+* https://www.linkedin.com/in/fedor-lebed-b8520b1a8/
+* https://www.linkedin.com/in/aostesymskyi/
+* https://www.linkedin.com/in/bogdan-ogorodniy/
+* https://www.linkedin.com/in/artem-fomiuk-31249b226/
+* https://www.linkedin.com/in/dominik-krizo/
+* https://www.linkedin.com/in/tsaruk-olexandr/
 
 ## Development Status :open_book:
 
 [The project](https://github.com/727-Ventures/openbrush-contracts) is already in release `1.6.0`.
 
-PSP22 - <https://github.com/w3f/PSPs/pull/25>
+PSP22 - https://github.com/w3f/PSPs/pull/25
 
-PSP34 - <https://github.com/w3f/PSPs/pull/34>
+PSP34 - https://github.com/w3f/PSPs/pull/34
 
-PSP37 - <https://github.com/w3f/PSPs/pull/37>
+PSP37 - https://github.com/w3f/PSPs/pull/37
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -308,9 +308,9 @@ PSP37 - <https://github.com/w3f/PSPs/pull/37>
 
 #### Milestone 8. `UniquePallet`/`RMRKPallet` chain extension
 
-* **Estimated Duration:** 7 weeks
+* **Estimated Duration:** 8 weeks
 * **FTE:**  2.5
-* **Costs:** 52 500 USD
+* **Costs:** 55 300 USD
 
 | Number | Deliverable                                                  | Specification                                                                                                                                                                                                                                                                                                                                |
 |--------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -322,6 +322,7 @@ PSP37 - <https://github.com/w3f/PSPs/pull/37>
 | 4.     | Implement NFT contract via chain extensions                  | OpenBrush will provide a default implementation of contracts that are implemented via according chains extensions.                                                                                                                                                                                                                           |
 | 5.     | Refactoring of trait system in the ink!                      | Refactoring of trait system in the ink! to support default implementation inside of traits. It should improve the developer's experience with traits and simplify its usage.                                                                                                                                                                 |
 | 6.     | Marketing - Create 4 educational video for OpenBrush/ink!    | We are going to work on educational video materials for OpenBrush and ink! Community. We see a huge gap in knowledge, understanding, and vision for the whole community in that sphere. Moreover, 727.ventures team will promote it in Twitter, Medium etc. We will create a lower entry threshold for newcomers by this educational program. |
+| 7.     | ink! storage docs    | There is no documentation with clear description of how the storage works within ink!. As our team was the one doing the refactoring of ink! storage, we will create a comprehensive documentation on how the storage works in ink! 4, as well as detailed comparison on what was changed in comparison to ink! 3 storage, including examples of usage. |
 
 #### Milestone 9. Multi token chain extension
 

@@ -2,6 +2,7 @@
 
 * **Team Name:** [LimeChain](https://github.com/LimeChain)
 * **Payment Address:** `0x6eDf76FD16Bb290A544fDc14fBB4b403D1DEeD9f` (USDT)
+* **Status:** [Terminated](https://github.com/w3f/Grants-Program/pull/563#issuecomment-1404941967)
 
 ## Project Overview :page_facing_up:
 
@@ -73,7 +74,7 @@ Subsembly provides an alternative way for developers to build Runtimes. More spe
 
 * **Contact Name:** Daniel Ivanov
 * **Contact Email:** daniel@limechain.tech
-* **Website:** <https://limechain.tech>
+* **Website:** https://limechain.tech
 
 ### Legal Structure
 
@@ -88,22 +89,22 @@ LimeChain is a blockchain development company with 100+ completed projects and s
 
 LimeChain's Substrate related repositories:
 
-* <https://github.com/LimeChain/subsembly>
-* <https://github.com/LimeChain/subsembly-core>
-* <https://github.com/LimeChain/as-scale-codec>
-* <https://github.com/LimeChain/as-substrate-runtime>
+* https://github.com/LimeChain/subsembly
+* https://github.com/LimeChain/subsembly-core
+* https://github.com/LimeChain/as-scale-codec
+* https://github.com/LimeChain/as-substrate-runtime
 
 Team's GitHub profiles:
 
-* <https://github.com/LimeChain>
-* <https://github.com/Daniel-K-Ivanov>
-* <https://github.com/dastanbeksamatov>
-* <https://github.com/themartto>
+* https://github.com/LimeChain
+* https://github.com/Daniel-K-Ivanov
+* https://github.com/dastanbeksamatov
+* https://github.com/themartto
 
 ### Team LinkedIn Profiles (if available)
 
-* <https://www.linkedin.com/in/daniel-k-ivanov/>
-* <https://www.linkedin.com/in/dastanbek-samatov-30ab71128/>
+* https://www.linkedin.com/in/daniel-k-ivanov/
+* https://www.linkedin.com/in/dastanbek-samatov-30ab71128/
 
 ## Development Status :open_book:
 

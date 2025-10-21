@@ -26,7 +26,7 @@ Future proposals will be made for the above. Below we'll explain the work in its
 **About Polywrap:**
 Polywrap is a dev toolchain that enables easy integration of Web3 protocols into any application. It makes it possible for software on any device, written in any language, to read and write data to Web3 protocols.
 
-<https://polywrap.io/#/>
+https://polywrap.io/#/
 
 ### Project Details
 
@@ -73,7 +73,7 @@ Project heavily relies on the Polywrap toolchain and Polywrap team support.
 
 - **Contact Name:** Marin Petrunić
 - **Contact Email:** marin@chainsafe.io
-- **Website:** <https://chainsafe.io/>
+- **Website:** https://chainsafe.io/
 
 ### Legal Structure
 
@@ -88,11 +88,11 @@ ChainSafe rounds out their deep Web 3.0 portfolio with undertakings into product
 
 ### Team Code Repos
 
-- <https://github.com/ChainSafe>
-- <https://github.com/ChainSafe/gossamer>
-- <https://github.com/ChainSafe/PINT>
-- <https://github.com/ChainSafe/chainlink-polkadot>
-- <https://github.com/polywrap>
+- https://github.com/ChainSafe
+- https://github.com/ChainSafe/gossamer
+- https://github.com/ChainSafe/PINT
+- https://github.com/ChainSafe/chainlink-polkadot
+- https://github.com/polywrap
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
@@ -132,7 +132,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - **Total Estimated Duration:** 1 month
 - **Full-Time Equivalent (FTE):**  2 Software Engineer, 0.5 Project Manager
-- **Total W3F Costs:** 50 000$
+- **Total Costs:** 50,000 USD
 - **Total Polywrap DAO Costs:** 27 000$ & 60 WRAP ([Approved Grant Proposal](https://snapshot.org/#/polywrap.eth/proposal/0x1c4b651c654c9409353e70e4675b3311f06a06ab40d8818e4370faa064c5645d))
 - **Start Date:** 11. April 2022
 
@@ -140,7 +140,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - **Estimated duration:** 1 month
 - **FTE:**  2 Software Engineer, 0.5 Project Manager
-- **Costs:** 50 000$
+- **Costs:** $50,000
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
